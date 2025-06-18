@@ -7,51 +7,29 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f9f9f9;
+      background: #f5f5f5;
       margin: 0;
       padding: 0;
     }
     .container {
-      max-width: 600px;
+      max-width: 900px;
       margin: 40px auto;
-      background: white;
+      background: #fff;
       padding: 30px;
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 12px rgba(0,0,0,0.08);
     }
-    h1 {
-      color: #333;
+    h1, p {
       text-align: center;
     }
-    p {
-      color: #666;
-      line-height: 1.6;
-      text-align: center;
-    }
-    form {
-      margin-top: 20px;
-    }
-    input, button {
+    iframe {
       width: 100%;
-      padding: 12px;
-      margin-bottom: 12px;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-    button {
-      background: #007BFF;
-      color: white;
+      height: 1100px;
       border: none;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #0056b3;
     }
     .disclaimer {
       font-size: 12px;
-      color: #999;
+      color: #888;
       text-align: center;
       margin-top: 20px;
     }
@@ -60,21 +38,11 @@
 <body>
   <div class="container">
     <h1>Injured in a Car Accident?</h1>
-    <p>You may be entitled to compensation. Get a free case evaluation today from licensed attorneys who fight for Georgia accident victims just like you.</p>
+    <p>Complete the secure form below to check your eligibility. No upfront fees. No obligation.</p>
 
-    <form action="https://formsubmit.co/raquel@consumerlegalrequest.com" method="POST">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://legalhelp.consumerlegalrequest.com/thank-you.html">
+    <iframe src="https://www.cognitoforms.com/f/RaquelElizabeth/43" scrolling="yes"></iframe>
 
-      <input type="text" name="Full Name" placeholder="Full Name" required>
-      <input type="email" name="Email" placeholder="Email" required>
-      <input type="tel" name="Phone" placeholder="Phone Number" required>
-      <input type="text" name="Accident Date" placeholder="Date of Accident (MM/DD/YYYY)" required>
-
-      <button type="submit">Submit Your Case</button>
-    </form>
-
-    <p class="disclaimer">We are not a law firm. Your information will be securely submitted to an attorney licensed in your state. No fees unless you win.</p>
+    <p class="disclaimer">We are not a law firm. Your information will be securely reviewed and submitted to a licensed attorney in your state.</p>
   </div>
 </body>
 </html>
