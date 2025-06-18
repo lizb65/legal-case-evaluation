@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -22,11 +22,6 @@
     h1, p {
       text-align: center;
     }
-    iframe {
-      width: 100%;
-      height: 1100px;
-      border: none;
-    }
     .disclaimer {
       font-size: 12px;
       color: #888;
@@ -40,7 +35,8 @@
     <h1>Injured in a Car Accident?</h1>
     <p>Complete the secure form below to check your eligibility. No upfront fees. No obligation.</p>
 
-    <iframe src="https://www.cognitoforms.com/RaquelElizabeth/MotorVehicleAccidentContactForm" scrolling="yes"></iframe>
+    <!-- Cognito Seamless Embed -->
+    <script src="https://www.cognitoforms.com/f/seamless.js" data-key="OLF6IDWks0ifMYWPe-BLkw" data-form="12"></script>
 
     <p class="disclaimer">We are not a law firm. Your information will be securely reviewed and submitted to a licensed attorney in your state.</p>
   </div>
